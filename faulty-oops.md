@@ -1,3 +1,4 @@
+```
 echo "hello_world" > /dev/faulty
 Unable to handle kernel NULL pointer dereference at virtual address 0000000000000000
 Mem abort info:
@@ -44,3 +45,4 @@ Code: d2800001 d2800000 d503233f d50323bf (b900003f)
 
 Welcome to Buildroot
 buildroot login: 
+```
