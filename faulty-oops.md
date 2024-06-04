@@ -46,3 +46,5 @@ Code: d2800001 d2800000 d503233f d50323bf (b900003f)
 Welcome to Buildroot
 buildroot login: 
 ```
+
+This oops file indicates a Null pointer dereference has occured. the "faulty_write+0x14/0x20 [faulty]" indicates the location where the null pointer dereference occurred and what module is responsible (in this case it is the "faulty" module). The call trace can be used to further dig into all the function calls associated with the failure. In this case the error was intentional just to demonstrate how to debug kernel modules. 
